@@ -1,0 +1,358 @@
+{
+  "team_id": "ES2012",
+  "meetings_processed": [
+    "ES2012a",
+    "ES2012b",
+    "ES2012c",
+    "ES2012d"
+  ],
+  "speaker_roles": {
+    "C": "User Interface Designer",
+    "B": "Industrial Designer"
+  },
+  "speaker_names": {},
+  "decisions": [
+    {
+      "edge_id": "ES2012a_display_screen_9",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012a",
+      "topic": "display_screen",
+      "decision_value": "Yep, good. Okay, very very quickly, um this I don't want to make this meeting too structured because the the whole idea",
+      "status": "DECIDED",
+      "speaker_id": "A",
+      "speaker_role": null,
+      "rationale": "Extracted from turn ES2012a_0009 at 00:03:35",
+      "valid_from": 1.0,
+      "invalid_at": 2.0,
+      "created_at": "2026-11-14T10:31:05.895647+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Yep, good. Okay, very very quickly, um this I don't want to make this meeting too structured because the the whole idea"
+    },
+    {
+      "edge_id": "ES2012a_production_cost_budget_17",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012a",
+      "topic": "production_cost_budget",
+      "decision_value": "Sorry? Indeed absolutely yes, tha that's um Okay and uh w we need to keep in mind here that the uh we",
+      "status": "DECIDED",
+      "speaker_id": "A",
+      "speaker_role": null,
+      "rationale": "Extracted from turn ES2012a_0017 at 00:07:31",
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:05.897319+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Sorry? Indeed absolutely yes, tha that's um Okay and uh w we need to keep in mind here that the uh we"
+    },
+    {
+      "edge_id": "ES2012b_display_screen_2",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012b",
+      "topic": "display_screen",
+      "decision_value": "Um and and we s we saw that the um what we needed to do was to to make sure the device",
+      "status": "DROPPED",
+      "speaker_id": "A",
+      "speaker_role": null,
+      "rationale": "Extracted from turn ES2012b_0002 at 00:01:29",
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:05.900082+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": "ES2012a_display_screen_9",
+      "semantic_target_quote": "and and we s we saw that the um what we needed to do was to to make sure the device"
+    },
+    {
+      "edge_id": "ES2012b_locator_feature_9",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012b",
+      "topic": "locator_feature",
+      "decision_value": "That one. Cool. Well these are functionality requirements from the our our guys down in the the research lab. Took hundred people",
+      "status": "DROPPED",
+      "speaker_id": "D",
+      "speaker_role": null,
+      "rationale": "Extracted from turn ES2012b_0009 at 00:07:30",
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:05.900834+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "That one. Cool. Well these are functionality requirements from the our our guys down in the the research lab. Took hundred people"
+    },
+    {
+      "edge_id": "ES2012b_speech_recognition_17",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012b",
+      "topic": "speech_recognition",
+      "decision_value": "Yeah, um oh yeah, so possibly the speech recognition is possibly something could add into the design. Oh, I've got some other",
+      "status": "DECIDED",
+      "speaker_id": "D",
+      "speaker_role": null,
+      "rationale": "Extracted from turn ES2012b_0017 at 00:11:51",
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:05.901749+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Yeah, um oh yeah, so possibly the speech recognition is possibly something could add into the design. Oh, I've got some other"
+    },
+    {
+      "edge_id": "ES2012c_energy_source_0",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012c",
+      "topic": "energy_source",
+      "decision_value": "Alright? Alright. Thank you for coming to this third meeting of the uh uh design group. Um I think we uh made",
+      "status": "DECIDED",
+      "speaker_id": "A",
+      "speaker_role": null,
+      "rationale": "Extracted from turn ES2012c_0000 at 00:00:12",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:05.907521+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Alright? Alright. Thank you for coming to this third meeting of the uh uh design group. Um I think we uh made"
+    },
+    {
+      "edge_id": "ES2012c_energy_source_3",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012c",
+      "topic": "energy_source",
+      "decision_value": "Um p there we go. 'Kay, I'll just be talking about the components design. And Okay, basically I just uh looked at",
+      "status": "DECIDED",
+      "speaker_id": "B",
+      "speaker_role": "Industrial Designer",
+      "rationale": "Extracted from turn ES2012c_0003 at 00:04:50",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:05.908168+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "p there we go. 'Kay, I'll just be talking about the components design. And Okay, basically I just uh looked at"
+    },
+    {
+      "edge_id": "ES2012c_energy_source_171",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012c",
+      "topic": "energy_source",
+      "decision_value": "Or well, but like uh like more than just the battery, like a complete different like you've only got like, you know",
+      "status": "DECIDED",
+      "speaker_id": "D",
+      "speaker_role": null,
+      "rationale": "Extracted from turn ES2012c_0171 at 00:24:07",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:05.913153+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Or well, but like uh like more than just the battery, like a complete different like you've only got like, you know"
+    },
+    {
+      "edge_id": "ES2012c_shape_theme_201",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012c",
+      "topic": "shape_theme",
+      "decision_value": "And, know whether we go down the fruit and veg route, and I don't suggest we make it look like a banana,",
+      "status": "DECIDED",
+      "speaker_id": "A",
+      "speaker_role": null,
+      "rationale": "Extracted from turn ES2012c_0201 at 00:26:44",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:05.914251+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "And, know whether we go down the fruit and veg route, and I don't suggest we make it look like a banana,"
+    },
+    {
+      "edge_id": "ES2012c_energy_source_283",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012c",
+      "topic": "energy_source",
+      "decision_value": "Yeah, certainly, of course. I think I think we decided that we're gonna for for simplicity of, you know, manufacturing and uh",
+      "status": "DECIDED",
+      "speaker_id": "A",
+      "speaker_role": null,
+      "rationale": "Extracted from turn ES2012c_0283 at 00:32:47",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:05.916944+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Yeah, certainly, of course. I think I think we decided that we're gonna for for simplicity of, you know, manufacturing and"
+    }
+  ],
+  "action_items": [
+    {
+      "action_id": "ES2012b_act_238",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012b",
+      "owner_speaker_id": "A",
+      "owner_role": null,
+      "task_description": "That's that that that that's their uh their view. Okay, so uh we can all give some thought to that uh for",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "That's that that that that's their uh their view. Okay, so uh we can all give some thought to that uh for"
+    },
+    {
+      "action_id": "ES2012c_act_0",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012c",
+      "owner_speaker_id": "A",
+      "owner_role": null,
+      "task_description": "Alright? Alright. Thank you for coming to this third meeting of the uh uh design group. Um I think we uh made",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Alright? Alright. Thank you for coming to this third meeting of the uh uh design group. Um I think we uh made"
+    }
+  ],
+  "disagreements": [
+    {
+      "disagreement_id": "ES2012a_dis_15",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012a",
+      "topic": "design_tradeoff",
+      "positions": "Uh-huh, fair enough yeah. I'm not sure that I've got any favourite animal to be quite honest, I think homo sapien because",
+      "speakers_involved": [
+        "A"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "fair enough yeah. I'm not sure that I've got any favourite animal to be quite honest, I think homo sapien because"
+    },
+    {
+      "disagreement_id": "ES2012a_dis_18",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012a",
+      "topic": "design_tradeoff",
+      "positions": "Well I think I find a lot of them really complicated to use with all the different buttons and uh it's handiest",
+      "speakers_involved": [
+        "C"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Well I think I find a lot of them really complicated to use with all the different buttons and uh it's handiest"
+    },
+    {
+      "disagreement_id": "ES2012a_dis_42",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012a",
+      "topic": "design_tradeoff",
+      "positions": "Well from the mouse idea you could, remote is a piece of plastic with the big rubber buttons sticking out of it",
+      "speakers_involved": [
+        "D"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Well from the mouse idea you could, remote is a piece of plastic with the big rubber buttons sticking out of it"
+    },
+    {
+      "disagreement_id": "ES2012a_dis_47",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012a",
+      "topic": "design_tradeoff",
+      "positions": "But maybe they could be concave instead of sticking up to have them be kind of down so you could feel them",
+      "speakers_involved": [
+        "C"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "But maybe they could be concave instead of sticking up to have them be kind of down so you could feel them"
+    },
+    {
+      "disagreement_id": "ES2012a_dis_51",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012a",
+      "topic": "design_tradeoff",
+      "positions": "Yeah, that's uh must admit I don't think I've ever seen one with concave buttons, that's uh certainly be different. Um do",
+      "speakers_involved": [
+        "A"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Yeah, that's uh must admit I don't think I've ever seen one with concave buttons, that's uh certainly be different. Um do"
+    },
+    {
+      "disagreement_id": "ES2012a_dis_67",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012a",
+      "topic": "design_tradeoff",
+      "positions": "Oh I think it's it's remote controls are kind of a unique object 'cause it's you depend on them so much, but",
+      "speakers_involved": [
+        "B"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Oh I think it's it's remote controls are kind of a unique object 'cause it's you depend on them so much, but"
+    },
+    {
+      "disagreement_id": "ES2012a_dis_74",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012a",
+      "topic": "design_tradeoff",
+      "positions": "Uh-huh. Right. Yeah. Okay that's uh Again I don't think that's ever been done before, it's uh the sort of the sort",
+      "speakers_involved": [
+        "A"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Right. Yeah. Okay that's uh Again I don't think that's ever been done before, it's uh the sort of the sort"
+    },
+    {
+      "disagreement_id": "ES2012c_dis_3",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012c",
+      "topic": "design_tradeoff",
+      "positions": "Um p there we go. 'Kay, I'll just be talking about the components design. And Okay, basically I just uh looked at",
+      "speakers_involved": [
+        "B"
+      ],
+      "is_open": false,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "p there we go. 'Kay, I'll just be talking about the components design. And Okay, basically I just uh looked at"
+    },
+    {
+      "disagreement_id": "ES2012c_dis_118",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012c",
+      "topic": "design_tradeoff",
+      "positions": "uh instead of the current functional look and feel. This is a st well I was gonna say yeah twice as important",
+      "speakers_involved": [
+        "D"
+      ],
+      "is_open": false,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "instead of the current functional look and feel. This is a st well I was gonna say yeah twice as important"
+    },
+    {
+      "disagreement_id": "ES2012c_dis_149",
+      "team_id": "ES2012",
+      "meeting_id": "ES2012c",
+      "topic": "design_tradeoff",
+      "positions": "Um you have we could if we could save depending on the cost of the product itself, you know, could we have",
+      "speakers_involved": [
+        "D"
+      ],
+      "is_open": false,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "you have we could if we could save depending on the cost of the product itself, you know, could we have"
+    }
+  ]
+}

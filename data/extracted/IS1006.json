@@ -1,0 +1,420 @@
+{
+  "team_id": "IS1006",
+  "meetings_processed": [
+    "IS1006a",
+    "IS1006b",
+    "IS1006c",
+    "IS1006d"
+  ],
+  "speaker_roles": {
+    "A": "Project Manager",
+    "D": "Marketing Expert"
+  },
+  "speaker_names": {},
+  "decisions": [
+    {
+      "edge_id": "IS1006a_display_screen_154",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006a",
+      "topic": "display_screen",
+      "decision_value": "And n maybe not too expensive, well it's not my problem, but well okay. But no screens on remote controls.",
+      "status": "DROPPED",
+      "speaker_id": "B",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1006a_0154 at 00:09:06",
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.208719+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "And n maybe not too expensive, well it's not my problem, but well okay. But no screens on remote controls."
+    },
+    {
+      "edge_id": "IS1006b_locator_feature_26",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006b",
+      "topic": "locator_feature",
+      "decision_value": "So basically uh what I suggest is that uh instead of deciding ourself what what could be and what should be a",
+      "status": "DECIDED",
+      "speaker_id": "D",
+      "speaker_role": "Marketing Expert",
+      "rationale": "Extracted from turn IS1006b_0026 at 00:02:37",
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.210705+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "So basically uh what I suggest is that uh instead of deciding ourself what what could be and what should be a"
+    },
+    {
+      "edge_id": "IS1006b_case_material_125",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006b",
+      "topic": "case_material",
+      "decision_value": "well, it's it's not an easy field to to play, you know? So be simple. For personal preferences I think that to",
+      "status": "DECIDED",
+      "speaker_id": "B",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1006b_0125 at 00:14:41",
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.214745+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "well, it's it's not an easy field to to play, you know? So be simple. For personal preferences I think that to"
+    },
+    {
+      "edge_id": "IS1006b_case_material_127",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006b",
+      "topic": "case_material",
+      "decision_value": "and we can put all the options into this screen. We'll need only few buttons. All the other things can be controlled",
+      "status": "DECIDED",
+      "speaker_id": "B",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1006b_0127 at 00:15:21",
+      "valid_from": 2.0,
+      "invalid_at": 3.0,
+      "created_at": "2026-11-14T10:31:06.214986+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "and we can put all the options into this screen. We'll need only few buttons. All the other things can be controlled"
+    },
+    {
+      "edge_id": "IS1006b_selling_price_174",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006b",
+      "topic": "selling_price",
+      "decision_value": "Mm-hmm. In fact I would propose another solution. Basically you use just four or five channels, right? Yeah. So uh set up",
+      "status": "DECIDED",
+      "speaker_id": "B",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1006b_0174 at 00:19:20",
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.216047+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "In fact I would propose another solution. Basically you use just four or five channels, right? Yeah. So uh set up"
+    },
+    {
+      "edge_id": "IS1006b_energy_source_212",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006b",
+      "topic": "energy_source",
+      "decision_value": "Well, as you know the basic function of remote control is sending some message to the the device, like T_V_ or V_C_R_",
+      "status": "DECIDED",
+      "speaker_id": "C",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1006b_0212 at 00:22:33",
+      "valid_from": 2.0,
+      "invalid_at": 3.0,
+      "created_at": "2026-11-14T10:31:06.217279+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Well, as you know the basic function of remote control is sending some message to the the device, like T_V_ or V_C_R_"
+    },
+    {
+      "edge_id": "IS1006b_production_cost_budget_235",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006b",
+      "topic": "production_cost_budget",
+      "decision_value": "Yeah. So Uh maybe we can make uh it in five Euros and even less than that, because we want to have",
+      "status": "DECIDED",
+      "speaker_id": "C",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1006b_0235 at 00:27:13",
+      "valid_from": 2.0,
+      "invalid_at": 4.0,
+      "created_at": "2026-11-14T10:31:06.218295+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Yeah. So Uh maybe we can make uh it in five Euros and even less than that, because we want to have"
+    },
+    {
+      "edge_id": "IS1006b_speech_recognition_256",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006b",
+      "topic": "speech_recognition",
+      "decision_value": "it will be complicated so we'll have only these three uh main basic uh anyway volume is not really speech recognition problem,",
+      "status": "DECIDED",
+      "speaker_id": "C",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1006b_0256 at 00:28:35",
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.218568+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "it will be complicated so we'll have only these three uh main basic uh anyway volume is not really speech recognition problem,"
+    },
+    {
+      "edge_id": "IS1006c_energy_source_16",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006c",
+      "topic": "energy_source",
+      "decision_value": "So uh we discussed an Excuse me. So we would like to propose battery instead of solar cells and it would be",
+      "status": "CHANGED",
+      "speaker_id": "C",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1006c_0016 at 00:04:14",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.220921+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": "IS1006b_energy_source_212",
+      "semantic_target_quote": "So uh we discussed an Excuse me. So we would like to propose battery instead of solar cells and it would be"
+    },
+    {
+      "edge_id": "IS1006c_case_material_332",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006c",
+      "topic": "case_material",
+      "decision_value": "Now we have to decide on what kind of fanciness. Do we take titanium smelling like fruit, or do we make spongy",
+      "status": "CHANGED",
+      "speaker_id": "A",
+      "speaker_role": "Project Manager",
+      "rationale": "Extracted from turn IS1006c_0332 at 00:28:56",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.226589+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": "IS1006b_case_material_127",
+      "semantic_target_quote": "Now we have to decide on what kind of fanciness. Do we take titanium smelling like fruit, or do we make spongy"
+    },
+    {
+      "edge_id": "IS1006c_case_material_344",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006c",
+      "topic": "case_material",
+      "decision_value": "Okay, okay. In fact I just agreed to make uh to make the like titanium panels on a whole rubber body.",
+      "status": "DECIDED",
+      "speaker_id": "B",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1006c_0344 at 00:29:28",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.226811+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Okay, okay. In fact I just agreed to make uh to make the like titanium panels on a whole rubber body."
+    },
+    {
+      "edge_id": "IS1006d_production_cost_budget_453",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006d",
+      "topic": "production_cost_budget",
+      "decision_value": "Boo-hoo. It's already too expensive. Apparently.",
+      "status": "DROPPED",
+      "speaker_id": "A",
+      "speaker_role": "Project Manager",
+      "rationale": "Extracted from turn IS1006d_0453 at 00:22:58",
+      "valid_from": 4.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.235845+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": "IS1006b_production_cost_budget_235",
+      "semantic_target_quote": "Boo-hoo. It's already too expensive. Apparently."
+    }
+  ],
+  "action_items": [
+    {
+      "action_id": "IS1006a_act_1",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006a",
+      "owner_speaker_id": "A",
+      "owner_role": "Project Manager",
+      "task_description": "So, hello everyone. We're here to have a kick-off meeting for the design of a f for the beginning of new project",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "So, hello everyone. We're here to have a kick-off meeting for the design of a f for the beginning of new project"
+    },
+    {
+      "action_id": "IS1006b_act_302",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006b",
+      "owner_speaker_id": "A",
+      "owner_role": "Project Manager",
+      "task_description": "Then we will work again for thirty minutes individual work, and um we will uh meet again for the next meeting, and",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Then we will work again for thirty minutes individual work, and um we will uh meet again for the next meeting, and"
+    },
+    {
+      "action_id": "IS1006c_act_80",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006c",
+      "owner_speaker_id": "D",
+      "owner_role": "Marketing Expert",
+      "task_description": "it's always like that. We have dreams and the in the end we find out that it's not feasible.",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "it's always like that. We have dreams and the in the end we find out that it's not feasible."
+    },
+    {
+      "action_id": "IS1006c_act_297",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006c",
+      "owner_speaker_id": "A",
+      "owner_role": "Project Manager",
+      "task_description": "So Mm-hmm. Okay, so we will have uh next meeting in thirty minutes again. Um now you have to go straight on",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "So Mm-hmm. Okay, so we will have uh next meeting in thirty minutes again. Um now you have to go straight on"
+    }
+  ],
+  "disagreements": [
+    {
+      "disagreement_id": "IS1006a_dis_154",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006a",
+      "topic": "design_tradeoff",
+      "positions": "And n maybe not too expensive, well it's not my problem, but well okay. But no screens on remote controls.",
+      "speakers_involved": [
+        "B"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "And n maybe not too expensive, well it's not my problem, but well okay. But no screens on remote controls."
+    },
+    {
+      "disagreement_id": "IS1006a_dis_158",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006a",
+      "topic": "design_tradeoff",
+      "positions": "So ma I prefer to have the off button at the top right, so I would have my own design of the",
+      "speakers_involved": [
+        "D"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "So ma I prefer to have the off button at the top right, so I would have my own design of the"
+    },
+    {
+      "disagreement_id": "IS1006b_dis_26",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006b",
+      "topic": "design_tradeoff",
+      "positions": "So basically uh what I suggest is that uh instead of deciding ourself what what could be and what should be a",
+      "speakers_involved": [
+        "D"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "So basically uh what I suggest is that uh instead of deciding ourself what what could be and what should be a"
+    },
+    {
+      "disagreement_id": "IS1006b_dis_90",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006b",
+      "topic": "design_tradeoff",
+      "positions": "So um now I think it's the turn of the the I'm not sure um Of the technical function, so uh",
+      "speakers_involved": [
+        "A"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "So um now I think it's the turn of the the I'm not sure um Of the technical function, so"
+    },
+    {
+      "disagreement_id": "IS1006b_dis_111",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006b",
+      "topic": "design_tradeoff",
+      "positions": "which one would you prefer? I guess this.",
+      "speakers_involved": [
+        "B"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "which one would you prefer? I guess this."
+    },
+    {
+      "disagreement_id": "IS1006b_dis_147",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006b",
+      "topic": "design_tradeoff",
+      "positions": "Uh I'm not sure about the screen, wha what is the use usefulness of the screen? Uh is it a touch screen",
+      "speakers_involved": [
+        "D"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "I'm not sure about the screen, wha what is the use usefulness of the screen? Uh is it a touch screen"
+    },
+    {
+      "disagreement_id": "IS1006b_dis_175",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006b",
+      "topic": "design_tradeoff",
+      "positions": "Most people yeah. In fact in in one uh remote control that I've seen, instead of doing that d you could just",
+      "speakers_involved": [
+        "D"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Most people yeah. In fact in in one uh remote control that I've seen, instead of doing that d you could just"
+    },
+    {
+      "disagreement_id": "IS1006b_dis_259",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006b",
+      "topic": "design_tradeoff",
+      "positions": "But then I think you you First of all I I think this is not uh functionality that it is going to",
+      "speakers_involved": [
+        "D"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "But then I think you you First of all I I think this is not uh functionality that it is going to"
+    },
+    {
+      "disagreement_id": "IS1006c_dis_16",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006c",
+      "topic": "design_tradeoff",
+      "positions": "So uh we discussed an Excuse me. So we would like to propose battery instead of solar cells and it would be",
+      "speakers_involved": [
+        "C"
+      ],
+      "is_open": false,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "So uh we discussed an Excuse me. So we would like to propose battery instead of solar cells and it would be"
+    },
+    {
+      "disagreement_id": "IS1006c_dis_36",
+      "team_id": "IS1006",
+      "meeting_id": "IS1006c",
+      "topic": "design_tradeoff",
+      "positions": "We'll use mainly for titanium rubber is expensive and also it's bit difficult to do all the shapes uh. And this push",
+      "speakers_involved": [
+        "C"
+      ],
+      "is_open": false,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "We'll use mainly for titanium rubber is expensive and also it's bit difficult to do all the shapes uh. And this push"
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "team_id": "TS3008",
+  "meetings_processed": [
+    "TS3008a",
+    "TS3008b",
+    "TS3008c",
+    "TS3008d"
+  ],
+  "speaker_roles": {},
+  "speaker_names": {},
+  "decisions": [
+    {
+      "edge_id": "TS3008b_target_age_group_107",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008b",
+      "topic": "target_age_group",
+      "decision_value": "Mm-hmm. I don't really agree actually, to be honest. It's a very small market which we will approach then if we uh",
+      "status": "DECIDED",
+      "speaker_id": "D",
+      "speaker_role": null,
+      "rationale": "Extracted from turn TS3008b_0107 at 00:14:33",
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.374964+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "I don't really agree actually, to be honest. It's a very small market which we will approach then if we"
+    },
+    {
+      "edge_id": "TS3008b_target_age_group_110",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008b",
+      "topic": "target_age_group",
+      "decision_value": "Yeah, I think so. Maybe if it's no no, but I think we have to just keep in mind what the older",
+      "status": "DROPPED",
+      "speaker_id": "A",
+      "speaker_role": null,
+      "rationale": "Extracted from turn TS3008b_0110 at 00:15:17",
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.375244+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Yeah, I think so. Maybe if it's no no, but I think we have to just keep in mind what the older"
+    },
+    {
+      "edge_id": "TS3008b_production_cost_budget_326",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008b",
+      "topic": "production_cost_budget",
+      "decision_value": "Yeah. Oh, if it let's well, we will see what's possible concerning the the costs, and if it's possible we'll do that.",
+      "status": "DROPPED",
+      "speaker_id": "A",
+      "speaker_role": null,
+      "rationale": "Extracted from turn TS3008b_0326 at 00:31:08",
+      "valid_from": 2.0,
+      "invalid_at": 3.0,
+      "created_at": "2026-11-14T10:31:06.382694+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Yeah. Oh, if it let's well, we will see what's possible concerning the the costs, and if it's possible we'll do that."
+    },
+    {
+      "edge_id": "TS3008c_production_cost_budget_252",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008c",
+      "topic": "production_cost_budget",
+      "decision_value": "No. Well, I think it's uh I think it's pretty trendy, to be honest, uh but um I don't know if if",
+      "status": "DROPPED",
+      "speaker_id": "D",
+      "speaker_role": null,
+      "rationale": "Extracted from turn TS3008c_0252 at 00:24:27",
+      "valid_from": 3.0,
+      "invalid_at": 4.0,
+      "created_at": "2026-11-14T10:31:06.391336+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": "TS3008b_production_cost_budget_326",
+      "semantic_target_quote": "No. Well, I think it's uh I think it's pretty trendy, to be honest, uh but um I don't know if if"
+    },
+    {
+      "edge_id": "TS3008d_production_cost_budget_168",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008d",
+      "topic": "production_cost_budget",
+      "decision_value": "Yeah, we'll talk about the lights later. 'Cause I also don yeah, it's depends on the costs and such. But uh, and",
+      "status": "DROPPED",
+      "speaker_id": "A",
+      "speaker_role": null,
+      "rationale": "Extracted from turn TS3008d_0168 at 00:13:26",
+      "valid_from": 4.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.400557+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": "TS3008c_production_cost_budget_252",
+      "semantic_target_quote": "Yeah, we'll talk about the lights later. 'Cause I also don yeah, it's depends on the costs and such. But uh, and"
+    }
+  ],
+  "action_items": [
+    {
+      "action_id": "TS3008a_act_196",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008a",
+      "owner_speaker_id": "A",
+      "owner_role": null,
+      "task_description": "Okay. Well, the closing. Next meeting starts in thirty minutes. Individual, I think so. The the Industrial Designer will w or the",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Okay. Well, the closing. Next meeting starts in thirty minutes. Individual, I think so. The the Industrial Designer will w or the"
+    },
+    {
+      "action_id": "TS3008d_act_516",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008d",
+      "owner_speaker_id": "A",
+      "owner_role": null,
+      "task_description": "Yeah, yeah. Yeah, but I do like the idea, but we yeah. It uh but it then the docking station isn't relevant",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 4.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Yeah, yeah. Yeah, but I do like the idea, but we yeah. It uh but it then the docking station isn't relevant"
+    },
+    {
+      "action_id": "TS3008d_act_524",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008d",
+      "owner_speaker_id": "A",
+      "owner_role": null,
+      "task_description": "But can we find out uh about uh this chips? Because when we don't need a d a docking station, then probably",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 4.0,
+      "invalid_at": null,
+      "semantic_target_quote": "But can we find out uh about uh this chips? Because when we don't need a d a docking station, then probably"
+    },
+    {
+      "action_id": "TS3008d_act_534",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008d",
+      "owner_speaker_id": "A",
+      "owner_role": null,
+      "task_description": "Yeah that's what then what he has to find out. Maybe you can uh find it in your email right now, then",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 4.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Yeah that's what then what he has to find out. Maybe you can uh find it in your email right now, then"
+    },
+    {
+      "action_id": "TS3008d_act_547",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008d",
+      "owner_speaker_id": "A",
+      "owner_role": null,
+      "task_description": "Yeah, but yeah, I don't know, because maybe d uh yeah, we have to find out with the simple chip.",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 4.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Yeah, but yeah, I don't know, because maybe d uh yeah, we have to find out with the simple chip."
+    }
+  ],
+  "disagreements": [
+    {
+      "disagreement_id": "TS3008a_dis_49",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008a",
+      "topic": "design_tradeoff",
+      "positions": "No, no. Just on the on the screen over there. Oh, no. Probably is, but I don't know if the software is",
+      "speakers_involved": [
+        "A"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "No, no. Just on the on the screen over there. Oh, no. Probably is, but I don't know if the software is"
+    },
+    {
+      "disagreement_id": "TS3008a_dis_119",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008a",
+      "topic": "design_tradeoff",
+      "positions": "I don't think uh I don't think uh Darwin would agree with that.",
+      "speakers_involved": [
+        "A"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "I don't think uh I don't think uh Darwin would agree with that."
+    },
+    {
+      "disagreement_id": "TS3008a_dis_134",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008a",
+      "topic": "design_tradeoff",
+      "positions": "I don't th I don't think the four of us got problems with remote controls, but if you see elderly people, all",
+      "speakers_involved": [
+        "D"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "I don't th I don't think the four of us got problems with remote controls, but if you see elderly people, all"
+    },
+    {
+      "disagreement_id": "TS3008a_dis_223",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008a",
+      "topic": "design_tradeoff",
+      "positions": "No. I don't think so. Yes? Great.",
+      "speakers_involved": [
+        "D"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "No. I don't think so. Yes? Great."
+    },
+    {
+      "disagreement_id": "TS3008b_dis_42",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008b",
+      "topic": "design_tradeoff",
+      "positions": "But you don't think it's a problem um to design uh the technical part of the remote control? It's gonna be easy?",
+      "speakers_involved": [
+        "A"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "But you don't think it's a problem um to design uh the technical part of the remote control? It's gonna be easy?"
+    },
+    {
+      "disagreement_id": "TS3008b_dis_57",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008b",
+      "topic": "design_tradeoff",
+      "positions": "I don't think so, because of the all the televisions uh there are a few maybe a couple of televisions with the",
+      "speakers_involved": [
+        "C"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "I don't think so, because of the all the televisions uh there are a few maybe a couple of televisions with the"
+    },
+    {
+      "disagreement_id": "TS3008b_dis_141",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008b",
+      "topic": "design_tradeoff",
+      "positions": "But what do you think? Do th should we implement features that uh uh or functions that to control other devices? No,",
+      "speakers_involved": [
+        "A"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "But what do you think? Do th should we implement features that uh uh or functions that to control other devices? No,"
+    },
+    {
+      "disagreement_id": "TS3008b_dis_314",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008b",
+      "topic": "design_tradeoff",
+      "positions": "Yeah, yeah. Okay. Yeah. Yeah, but then it's very easy to make it also a rechargeab I don't think that is gonna",
+      "speakers_involved": [
+        "A"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Yeah, yeah. Okay. Yeah. Yeah, but then it's very easy to make it also a rechargeab I don't think that is gonna"
+    },
+    {
+      "disagreement_id": "TS3008b_dis_326",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008b",
+      "topic": "design_tradeoff",
+      "positions": "Yeah. Oh, if it let's well, we will see what's possible concerning the the costs, and if it's possible we'll do that.",
+      "speakers_involved": [
+        "A"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Yeah. Oh, if it let's well, we will see what's possible concerning the the costs, and if it's possible we'll do that."
+    },
+    {
+      "disagreement_id": "TS3008b_dis_374",
+      "team_id": "TS3008",
+      "meeting_id": "TS3008b",
+      "topic": "design_tradeoff",
+      "positions": "Well, I I I have to say, I have this uh can opening remote control in my head most of all, or",
+      "speakers_involved": [
+        "A"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Well, I I I have to say, I have this uh can opening remote control in my head most of all, or"
+    }
+  ]
+}

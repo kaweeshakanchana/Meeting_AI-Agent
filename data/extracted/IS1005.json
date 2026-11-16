@@ -1,0 +1,392 @@
+{
+  "team_id": "IS1005",
+  "meetings_processed": [
+    "IS1005a",
+    "IS1005b",
+    "IS1005c"
+  ],
+  "speaker_roles": {
+    "A": "Project Manager",
+    "D": "Marketing Expert",
+    "C": "User Interface Designer"
+  },
+  "speaker_names": {},
+  "decisions": [
+    {
+      "edge_id": "IS1005a_selling_price_11",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005a",
+      "topic": "selling_price",
+      "decision_value": "So, uh, so today we are doing a short meeting to present the project, so um We are gooding we are going",
+      "status": "DECIDED",
+      "speaker_id": "A",
+      "speaker_role": "Project Manager",
+      "rationale": "Extracted from turn IS1005a_0011 at 00:02:11",
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.176166+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "So, uh, so today we are doing a short meeting to present the project, so um We are gooding we are going"
+    },
+    {
+      "edge_id": "IS1005b_speech_recognition_67",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005b",
+      "topic": "speech_recognition",
+      "decision_value": "Uh. Components to use, I'm not exactly sure what I will use for the design of the circuit. It depends uh on",
+      "status": "DECIDED",
+      "speaker_id": "B",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1005b_0067 at 00:17:41",
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.186536+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Components to use, I'm not exactly sure what I will use for the design of the circuit. It depends uh on"
+    },
+    {
+      "edge_id": "IS1005b_speech_recognition_73",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005b",
+      "topic": "speech_recognition",
+      "decision_value": "But it depends whether we take a decision to use it. Same thing. It's fairly expensive to use these circuits. So, speech",
+      "status": "DECIDED",
+      "speaker_id": "B",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1005b_0073 at 00:18:24",
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.186897+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "But it depends whether we take a decision to use it. Same thing. It's fairly expensive to use these circuits. So, speech"
+    },
+    {
+      "edge_id": "IS1005b_case_material_77",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005b",
+      "topic": "case_material",
+      "decision_value": "Yeah, I'm Oh. I was not thinking too much about the price. But if we use the L_C_D_ uh even the radio",
+      "status": "DECIDED",
+      "speaker_id": "B",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1005b_0077 at 00:18:54",
+      "valid_from": 2.0,
+      "invalid_at": 3.0,
+      "created_at": "2026-11-14T10:31:06.187095+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Yeah, I'm Oh. I was not thinking too much about the price. But if we use the L_C_D_ uh even the radio"
+    },
+    {
+      "edge_id": "IS1005b_speech_recognition_107",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005b",
+      "topic": "speech_recognition",
+      "decision_value": "The third the third one is uh about the the the image of the company. So um uh we should we should",
+      "status": "DECIDED",
+      "speaker_id": "A",
+      "speaker_role": "Project Manager",
+      "rationale": "Extracted from turn IS1005b_0107 at 00:23:14",
+      "valid_from": 2.0,
+      "invalid_at": 3.0,
+      "created_at": "2026-11-14T10:31:06.188248+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "The third the third one is uh about the the the image of the company. So um uh we should we should"
+    },
+    {
+      "edge_id": "IS1005c_energy_source_51",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005c",
+      "topic": "energy_source",
+      "decision_value": "Uh first thing is uh this will be the overall shape, no uh I'm not speaking about the real shape of the",
+      "status": "DROPPED",
+      "speaker_id": "B",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1005c_0051 at 00:11:37",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.196831+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "first thing is uh this will be the overall shape, no uh I'm not speaking about the real shape of the"
+    },
+    {
+      "edge_id": "IS1005c_case_material_53",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005c",
+      "topic": "case_material",
+      "decision_value": "It depends where you put your screen, because the screen is uh seven inch, so it depends on you where where you",
+      "status": "CHANGED",
+      "speaker_id": "B",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1005c_0053 at 00:12:44",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.197168+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": "IS1005b_case_material_77",
+      "semantic_target_quote": "It depends where you put your screen, because the screen is uh seven inch, so it depends on you where where you"
+    },
+    {
+      "edge_id": "IS1005c_display_screen_67",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005c",
+      "topic": "display_screen",
+      "decision_value": "That's quite big. Uh uh have we decided that we're gonna use this T_F_T_ screen?",
+      "status": "DECIDED",
+      "speaker_id": "D",
+      "speaker_role": "Marketing Expert",
+      "rationale": "Extracted from turn IS1005c_0067 at 00:15:10",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.197779+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "That's quite big. Uh uh have we decided that we're gonna use this T_F_T_ screen?"
+    },
+    {
+      "edge_id": "IS1005c_display_screen_129",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005c",
+      "topic": "display_screen",
+      "decision_value": "So I think before talking about the other thing, it's important thing it's the case. Uh what what are gonna be the",
+      "status": "DECIDED",
+      "speaker_id": "A",
+      "speaker_role": "Project Manager",
+      "rationale": "Extracted from turn IS1005c_0129 at 00:19:16",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.199505+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "So I think before talking about the other thing, it's important thing it's the case. Uh what what are gonna be the"
+    },
+    {
+      "edge_id": "IS1005c_shape_theme_186",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005c",
+      "topic": "shape_theme",
+      "decision_value": "So we are agree with the banana thing? Okay.",
+      "status": "DECIDED",
+      "speaker_id": "A",
+      "speaker_role": "Project Manager",
+      "rationale": "Extracted from turn IS1005c_0186 at 00:25:07",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.201621+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "So we are agree with the banana thing? Okay."
+    },
+    {
+      "edge_id": "IS1005c_energy_source_243",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005c",
+      "topic": "energy_source",
+      "decision_value": "Well since since the since the things like the like the screen and um how to say that, solar cell has to",
+      "status": "DROPPED",
+      "speaker_id": "B",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1005c_0243 at 00:30:07",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.203123+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Well since since the since the things like the like the screen and um how to say that, solar cell has to"
+    },
+    {
+      "edge_id": "IS1005c_speech_recognition_253",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005c",
+      "topic": "speech_recognition",
+      "decision_value": "And something we forgot, maybe, uh about the speech recognition system, are we going to use it, or not?",
+      "status": "CHANGED",
+      "speaker_id": "A",
+      "speaker_role": "Project Manager",
+      "rationale": "Extracted from turn IS1005c_0253 at 00:31:22",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.203425+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": "IS1005b_speech_recognition_107",
+      "semantic_target_quote": "And something we forgot, maybe, uh about the speech recognition system, are we going to use it, or not?"
+    }
+  ],
+  "action_items": [
+    {
+      "action_id": "IS1005a_act_84",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005a",
+      "owner_speaker_id": "A",
+      "owner_role": "Project Manager",
+      "task_description": "Okay. Let's continue. I have a meeting in five minutes, so maybe we should hurry. Um. So we will close uh this",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Okay. Let's continue. I have a meeting in five minutes, so maybe we should hurry. Um. So we will close uh this"
+    },
+    {
+      "action_id": "IS1005c_act_262",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005c",
+      "owner_speaker_id": "A",
+      "owner_role": "Project Manager",
+      "task_description": "So, that great. We have decided everything. And think we are on a good way. So, um uh the next meeting will",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "So, that great. We have decided everything. And think we are on a good way. So, um uh the next meeting will"
+    }
+  ],
+  "disagreements": [
+    {
+      "disagreement_id": "IS1005a_dis_60",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005a",
+      "topic": "design_tradeoff",
+      "positions": "And the second thing, f second point from me would be that in a normal remote control there is uh there are",
+      "speakers_involved": [
+        "B"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "And the second thing, f second point from me would be that in a normal remote control there is uh there are"
+    },
+    {
+      "disagreement_id": "IS1005a_dis_81",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005a",
+      "topic": "design_tradeoff",
+      "positions": "Uh I Yeah, just a simple experience. I uh I prefer um remote control working with radio waves, because remote control working",
+      "speakers_involved": [
+        "C"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "I Yeah, just a simple experience. I uh I prefer um remote control working with radio waves, because remote control working"
+    },
+    {
+      "disagreement_id": "IS1005b_dis_2",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005b",
+      "topic": "design_tradeoff",
+      "positions": "Yep. Oh, I don't think so. I think you have to come here. I dunno. I think it should stay.",
+      "speakers_involved": [
+        "A"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Yep. Oh, I don't think so. I think you have to come here. I dunno. I think it should stay."
+    },
+    {
+      "disagreement_id": "IS1005b_dis_33",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005b",
+      "topic": "design_tradeoff",
+      "positions": "And uh also as uh I understood, and uh I think it was a part of uh Bob, uh uh presentation, people",
+      "speakers_involved": [
+        "C"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "And uh also as uh I understood, and uh I think it was a part of uh Bob, uh uh presentation, people"
+    },
+    {
+      "disagreement_id": "IS1005b_dis_37",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005b",
+      "topic": "design_tradeoff",
+      "positions": "Uh, I don't think so, because uh we can make uh we ca we can make this wave in a specific frequency.",
+      "speakers_involved": [
+        "C"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "I don't think so, because uh we can make uh we ca we can make this wave in a specific frequency."
+    },
+    {
+      "disagreement_id": "IS1005b_dis_63",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005b",
+      "topic": "design_tradeoff",
+      "positions": "Uh, okay findings, that's the point that I'm working on currently but uh so far I I was uh looking what what",
+      "speakers_involved": [
+        "B"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "okay findings, that's the point that I'm working on currently but uh so far I I was uh looking what what"
+    },
+    {
+      "disagreement_id": "IS1005b_dis_71",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005b",
+      "topic": "design_tradeoff",
+      "positions": "Exactly. But I'm not sure about the circuit which is responsible for speech recognition. This I prefer that we should make ourselves.",
+      "speakers_involved": [
+        "B"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Exactly. But I'm not sure about the circuit which is responsible for speech recognition. This I prefer that we should make ourselves."
+    },
+    {
+      "disagreement_id": "IS1005b_dis_166",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005b",
+      "topic": "design_tradeoff",
+      "positions": "I don't Oh, I don't but I don't think we're we're the ones. I mean this remote control we're developing is a",
+      "speakers_involved": [
+        "D"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "I don't Oh, I don't but I don't think we're we're the ones. I mean this remote control we're developing is a"
+    },
+    {
+      "disagreement_id": "IS1005c_dis_42",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005c",
+      "topic": "design_tradeoff",
+      "positions": "Okay. And my personal p uh preference is uh, as I said, uh just putting this buttons in a special places and",
+      "speakers_involved": [
+        "C"
+      ],
+      "is_open": false,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Okay. And my personal p uh preference is uh, as I said, uh just putting this buttons in a special places and"
+    },
+    {
+      "disagreement_id": "IS1005c_dis_46",
+      "team_id": "IS1005",
+      "meeting_id": "IS1005c",
+      "topic": "design_tradeoff",
+      "positions": "I'm person two. And which one, uh probably the first one. I'm not sure but check the first one. I Most of",
+      "speakers_involved": [
+        "B"
+      ],
+      "is_open": false,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "I'm person two. And which one, uh probably the first one. I'm not sure but check the first one. I Most of"
+    }
+  ]
+}

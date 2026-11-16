@@ -1,0 +1,357 @@
+{
+  "team_id": "IS1001",
+  "meetings_processed": [
+    "IS1001a",
+    "IS1001b",
+    "IS1001c",
+    "IS1001d"
+  ],
+  "speaker_roles": {},
+  "speaker_names": {},
+  "decisions": [
+    {
+      "edge_id": "IS1001b_speech_recognition_172",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001b",
+      "topic": "speech_recognition",
+      "decision_value": "Yeah. Um we just have to define the processing power that we need uh especially if we want to do some uh",
+      "status": "DECIDED",
+      "speaker_id": "C",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1001b_0172 at 00:18:20",
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.072479+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Yeah. Um we just have to define the processing power that we need uh especially if we want to do some"
+    },
+    {
+      "edge_id": "IS1001b_locator_feature_332",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001b",
+      "topic": "locator_feature",
+      "decision_value": "Well also we have to decide uh so it should be lightening in the dark I think because most people lost their",
+      "status": "DECIDED",
+      "speaker_id": "A",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1001b_0332 at 00:31:51",
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.075391+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Well also we have to decide uh so it should be lightening in the dark I think because most people lost their"
+    },
+    {
+      "edge_id": "IS1001c_case_material_2",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001c",
+      "topic": "case_material",
+      "decision_value": "So we are here for the concept design meeting. So, we will first start by summarizing the mm the previous meeting and",
+      "status": "DROPPED",
+      "speaker_id": "A",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1001c_0002 at 00:00:33",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.076255+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "So we are here for the concept design meeting. So, we will first start by summarizing the mm the previous meeting and"
+    },
+    {
+      "edge_id": "IS1001c_production_cost_budget_172",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001c",
+      "topic": "production_cost_budget",
+      "decision_value": "So, I think we can keep the wheel because it's uh easy, it's innovative, even if the cost is a bit higher,",
+      "status": "DECIDED",
+      "speaker_id": "A",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1001c_0172 at 00:15:54",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.082198+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "So, I think we can keep the wheel because it's uh easy, it's innovative, even if the cost is a bit higher,"
+    },
+    {
+      "edge_id": "IS1001c_shape_theme_189",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001c",
+      "topic": "shape_theme",
+      "decision_value": "Yeah. I think it's a good design and it's innovative as well then. Maybe we can keep the banana. And it will",
+      "status": "DECIDED",
+      "speaker_id": "A",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1001c_0189 at 00:17:08",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.082534+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Yeah. I think it's a good design and it's innovative as well then. Maybe we can keep the banana. And it will"
+    },
+    {
+      "edge_id": "IS1001c_energy_source_215",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001c",
+      "topic": "energy_source",
+      "decision_value": "Okay odd shape with spongy cover. And standard battery okay, a chip imprint, there's no specific problem. So we agree to put",
+      "status": "DROPPED",
+      "speaker_id": "A",
+      "speaker_role": null,
+      "rationale": "Extracted from turn IS1001c_0215 at 00:19:22",
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "created_at": "2026-11-14T10:31:06.083105+00:00",
+      "deleted_at": null,
+      "supersedes_edge_id": null,
+      "semantic_target_quote": "Okay odd shape with spongy cover. And standard battery okay, a chip imprint, there's no specific problem. So we agree to put"
+    }
+  ],
+  "action_items": [
+    {
+      "action_id": "IS1001a_act_126",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001a",
+      "owner_speaker_id": "A",
+      "owner_role": null,
+      "task_description": "Which is you. Okay so try to find that for next meeting.",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Which is you. Okay so try to find that for next meeting."
+    },
+    {
+      "action_id": "IS1001a_act_129",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001a",
+      "owner_speaker_id": "A",
+      "owner_role": null,
+      "task_description": "Okay. So next meeting is in thirty minutes or so uh. Don't pani. So so I will ask the Industrial Designer to",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Okay. So next meeting is in thirty minutes or so uh. Don't pani. So so I will ask the Industrial Designer to"
+    },
+    {
+      "action_id": "IS1001a_act_133",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001a",
+      "owner_speaker_id": "A",
+      "owner_role": null,
+      "task_description": "And also um I will ask the Market Expert to uh try to find out what are the absolute requirements, what is",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "And also um I will ask the Market Expert to uh try to find out what are the absolute requirements, what is"
+    },
+    {
+      "action_id": "IS1001b_act_351",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001b",
+      "owner_speaker_id": "A",
+      "owner_role": null,
+      "task_description": "Okay. So um I I will uh I will so I we will move to next meeting so in after the lunch",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Okay. So um I I will uh I will so I we will move to next meeting so in after the lunch"
+    },
+    {
+      "action_id": "IS1001b_act_353",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001b",
+      "owner_speaker_id": "A",
+      "owner_role": null,
+      "task_description": "thank you for uh your suggestion and I I will make a summary of that meeting that I will put in the",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "thank you for uh your suggestion and I I will make a summary of that meeting that I will put in the"
+    },
+    {
+      "action_id": "IS1001c_act_2",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001c",
+      "owner_speaker_id": "A",
+      "owner_role": null,
+      "task_description": "So we are here for the concept design meeting. So, we will first start by summarizing the mm the previous meeting and",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "So we are here for the concept design meeting. So, we will first start by summarizing the mm the previous meeting and"
+    },
+    {
+      "action_id": "IS1001c_act_240",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001c",
+      "owner_speaker_id": "A",
+      "owner_role": null,
+      "task_description": "So the colour is yellow. I think it's uh we defined everything according to what we should what the decision we should",
+      "status": "OPEN",
+      "resolution_meeting_id": null,
+      "resolution_summary": null,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "So the colour is yellow. I think it's uh we defined everything according to what we should what the decision we should"
+    }
+  ],
+  "disagreements": [
+    {
+      "disagreement_id": "IS1001a_dis_122",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001a",
+      "topic": "design_tradeoff",
+      "positions": "It's cool. I think I like the idea, but I'm not sure about the what you, who is giving who's giving who's",
+      "speakers_involved": [
+        "B"
+      ],
+      "is_open": false,
+      "valid_from": 1.0,
+      "invalid_at": null,
+      "semantic_target_quote": "It's cool. I think I like the idea, but I'm not sure about the what you, who is giving who's giving who's"
+    },
+    {
+      "disagreement_id": "IS1001b_dis_124",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001b",
+      "topic": "design_tradeoff",
+      "positions": "Very accessible yes. That's right. So then we asked some questions to them and um we asked this question if they prefer",
+      "speakers_involved": [
+        "D"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Very accessible yes. That's right. So then we asked some questions to them and um we asked this question if they prefer"
+    },
+    {
+      "disagreement_id": "IS1001b_dis_153",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001b",
+      "topic": "design_tradeoff",
+      "positions": "I have uh I've no idea I mean I should know a bit more about how fast we can uh design it.",
+      "speakers_involved": [
+        "B"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "I have uh I've no idea I mean I should know a bit more about how fast we can uh design it."
+    },
+    {
+      "disagreement_id": "IS1001b_dis_262",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001b",
+      "topic": "design_tradeoff",
+      "positions": "So well Yeah. So anyway we don't have to include this feature because it's it's not used any more by users, they",
+      "speakers_involved": [
+        "A"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "So well Yeah. So anyway we don't have to include this feature because it's it's not used any more by users, they"
+    },
+    {
+      "disagreement_id": "IS1001b_dis_297",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001b",
+      "topic": "design_tradeoff",
+      "positions": "Mm. It's an interesting idea, that if you press it for a long time it does something else, in general. So if",
+      "speakers_involved": [
+        "B"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "It's an interesting idea, that if you press it for a long time it does something else, in general. So if"
+    },
+    {
+      "disagreement_id": "IS1001b_dis_314",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001b",
+      "topic": "design_tradeoff",
+      "positions": "Hey I just thought this thing there is a I mean you know there is are some with a wheel like this.",
+      "speakers_involved": [
+        "B"
+      ],
+      "is_open": false,
+      "valid_from": 2.0,
+      "invalid_at": null,
+      "semantic_target_quote": "Hey I just thought this thing there is a I mean you know there is are some with a wheel like this."
+    },
+    {
+      "disagreement_id": "IS1001c_dis_20",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001c",
+      "topic": "design_tradeoff",
+      "positions": "But I don't think that uh we should We should talk about uh the design of the box also which needs some",
+      "speakers_involved": [
+        "B"
+      ],
+      "is_open": false,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "But I don't think that uh we should We should talk about uh the design of the box also which needs some"
+    },
+    {
+      "disagreement_id": "IS1001c_dis_31",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001c",
+      "topic": "design_tradeoff",
+      "positions": "I guess it's possible. I mean instead of recording the answers you can just uh record uh something simpler like a command.",
+      "speakers_involved": [
+        "C"
+      ],
+      "is_open": false,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "I guess it's possible. I mean instead of recording the answers you can just uh record uh something simpler like a command."
+    },
+    {
+      "disagreement_id": "IS1001c_dis_57",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001c",
+      "topic": "design_tradeoff",
+      "positions": "I don't think that this is really expensive, but at the end this is plenty of unexpen eh very cheap devices but",
+      "speakers_involved": [
+        "B"
+      ],
+      "is_open": false,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "I don't think that this is really expensive, but at the end this is plenty of unexpen eh very cheap devices but"
+    },
+    {
+      "disagreement_id": "IS1001c_dis_98",
+      "team_id": "IS1001",
+      "meeting_id": "IS1001c",
+      "topic": "design_tradeoff",
+      "positions": "So, I don't think Yeah, this is just the the wheel. We could use the some wheels can be pushed down, could",
+      "speakers_involved": [
+        "C"
+      ],
+      "is_open": false,
+      "valid_from": 3.0,
+      "invalid_at": null,
+      "semantic_target_quote": "So, I don't think Yeah, this is just the the wheel. We could use the some wheels can be pushed down, could"
+    }
+  ]
+}

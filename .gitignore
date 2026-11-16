@@ -1,0 +1,19 @@
+# Python caches & test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.deepeval/
+*.log
+
+# Regenerable local Qdrant vector DB (exceeds GitHub 100MB limit; rebuild with `python -m src.ingestion.qdrant_indexer`)
+data/qdrant_db/
+
+# Node / Vite frontend build & dependencies
+frontend/node_modules/
+frontend/dist/
+
+# Environment / OS
+.env
+.DS_Store
+Thumbs.db
