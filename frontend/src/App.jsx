@@ -458,6 +458,32 @@ export default function App() {
                         • {rec.type}
                       </div>
                     ))}
+                    {liveResult.telemetry?.qdrant_top_hits?.length > 0 && (
+                      <div style={{ marginTop: '10px' }}>
+                        <div className="citation-meta" style={{ marginBottom: '4px' }}>
+                          <span>QDRANT HYBRID VECTOR HITS (35,381 POINTS)</span>
+                          <span>RRF + Cosine</span>
+                        </div>
+                        {liveResult.telemetry.qdrant_top_hits.slice(0, 3).map((qh, qIdx) => (
+                          <div
+                            key={qIdx}
+                            style={{
+                              fontSize: '0.76rem',
+                              fontFamily: 'var(--font-mono)',
+                              color: '#94a3b8',
+                              padding: '4px 0',
+                              borderBottom: '1px solid rgba(148,163,184,0.08)',
+                            }}
+                          >
+                            <span style={{ color: '#818cf8' }}>[{qh.meeting_id}]</span>{' '}
+                            <span style={{ color: '#34d399' }}>
+                              score={qh.hybrid_score} (cos={qh.vector_score})
+                            </span>{' '}
+                            • {qh.record_type}: “{qh.text_preview}...”
+                          </div>
+                        ))}
+                      </div>
+                    )}
                   </div>
 
                   <div className="citation-box">

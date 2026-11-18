@@ -32,6 +32,7 @@ from src.citation.verbatim_extractor import (
 )
 from src.graph.bitemporal_graph import BiTemporalKnowledgeGraph, canonicalize_topic
 from src.ingestion.parser import parse_transcript_file
+from src.ingestion.qdrant_indexer import AMIHybridQdrantStore, compute_dense_embedding
 
 
 STOPWORDS: Set[str] = {
@@ -163,11 +164,46 @@ def _score_text_relevance(
     text: str,
     q_primary: Set[str],
     q_expanded: Set[str],
+    q_vec: Optional[List[float]] = None,
 ) -> float:
     tokens = set(re.findall(r"[a-z0-9_]+", text.lower()))
     primary_hits = len(q_primary & tokens)
     expanded_hits = len(q_expanded & tokens)
-    return primary_hits * 4.0 + expanded_hits * 1.2
+    score = primary_hits * 4.0 + expanded_hits * 1.2
+    if q_vec is not None and text.strip():
+        t_vec = compute_dense_embedding(text)
+        cosine = sum(a * b for a, b in zip(q_vec, t_vec))
+        score += max(0.0, cosine) * 6.0
+    return score
+
+
+def _query_qdrant_live(
+    question_text: str,
+    team_id: Optional[str] = None,
+    top_k: int = 8,
+    qdrant_path: str | Path = "data/qdrant_db",
+) -> List[Dict[str, Any]]:
+    """Query the persistent Qdrant vector store (35,381 points) with filterable HNSW + RRF."""
+    db_dir = Path(qdrant_path)
+    if not db_dir.exists():
+        return []
+    store: Optional[AMIHybridQdrantStore] = None
+    try:
+        store = AMIHybridQdrantStore(db_path=db_dir)
+        hits = store.hybrid_search(
+            query=question_text,
+            team_id=team_id,
+            top_k=top_k,
+        )
+        return hits
+    except Exception:
+        return []
+    finally:
+        if store is not None:
+            try:
+                store.close()
+            except Exception:
+                pass
 
 
 def resolve_live_question(
@@ -177,13 +213,18 @@ def resolve_live_question(
     graph: Optional[BiTemporalKnowledgeGraph] = None,
     transcripts_dir: str | Path = "transcripts",
 ) -> Dict[str, Any]:
-    """Dynamically resolve any unseen multi-hop question using Bi-Temporal Graph + Raw Transcripts + RapidFuzz."""
+    """Dynamically resolve any unseen multi-hop question using Qdrant Hybrid Search + Bi-Temporal Graph + RapidFuzz."""
     t0 = time.perf_counter()
     transcripts_root = Path(transcripts_dir)
     if graph is None:
         graph = BiTemporalKnowledgeGraph.load_from_disk("data/bitemporal_graph.json")
 
     team_id = _detect_team_id(question_text, graph, team_hint=team_hint)
+
+    # Execute live Qdrant hybrid vector + RRF search over `data/qdrant_db`
+    qdrant_hits = _query_qdrant_live(question_text, team_id=team_id, top_k=8)
+    q_vec = compute_dense_embedding(question_text)
+
     bundle = graph.teams[team_id]
     speaker_roles = bundle.speaker_roles
     speaker_names = bundle.speaker_names
@@ -192,16 +233,29 @@ def resolve_live_question(
     q_primary = _extract_primary_keywords(question_text)
     q_expanded = _tokenize_keywords(question_text)
 
+    # Build a fast lookup of Qdrant hybrid scores by (meeting_id, quote/edge_id)
+    qdrant_edge_boost: Dict[str, float] = {}
+    qdrant_meeting_boost: Dict[str, float] = {}
+    for hit in qdrant_hits:
+        h_score = float(hit.get("_hybrid_score", 0.0))
+        if hit.get("edge_id"):
+            qdrant_edge_boost[str(hit["edge_id"])] = h_score * 10.0
+        mid = str(hit.get("meeting_id", ""))
+        if mid:
+            qdrant_meeting_boost[mid] = max(qdrant_meeting_boost.get(mid, 0.0), h_score * 3.0)
+
     wants_actions = any(k in q_low for k in ["action", "task", "owner", "todo", "assign", "next meeting", "responsible"])
     wants_disagreements = any(
         k in q_low for k in ["disagree", "disagreement", "object", "objection", "conflict", "unresolved", "argued", "against"]
     )
 
-    # 1. Score all DecisionEdges, Disagreements, and ActionItems for the detected team
+    # 1. Score all DecisionEdges, Disagreements, and ActionItems using Hybrid (Lexical + Dense Embedding + Qdrant RRF)
     scored_decisions: List[Tuple[float, Any]] = []
     for dec in bundle.decisions:
         blob = f"{dec.topic} { canonicalize_topic(dec.topic) } {dec.decision_value} {dec.rationale} {dec.semantic_target_quote}"
-        score = _score_text_relevance(blob, q_primary, q_expanded)
+        score = _score_text_relevance(blob, q_primary, q_expanded, q_vec=q_vec)
+        score += qdrant_edge_boost.get(dec.edge_id, 0.0)
+        score += qdrant_meeting_boost.get(dec.meeting_id, 0.0)
         # Boost decisions that belong to a supersession chain when question asks about change/evolution
         if dec.supersedes_edge_id or dec.invalid_at is not None:
             score += 2.0
@@ -370,8 +424,31 @@ def resolve_live_question(
             topic=dis.topic,
         )
 
-    # 3. Ensure at least 2 distinct meetings are represented by scanning raw transcript turns if needed
+    # 3. Ensure at least 2 distinct meetings are represented by checking Qdrant turn hits first, then raw transcript turns
     distinct_meetings = {r["meeting_id"] for r in selected_records}
+    if len(distinct_meetings) < 2 and qdrant_hits:
+        for hit in qdrant_hits:
+            h_mid = str(hit.get("meeting_id", ""))
+            if not h_mid or h_mid in distinct_meetings:
+                continue
+            h_text = str(hit.get("text", "")).strip()
+            h_spk = str(hit.get("speaker_id", "A"))
+            h_order = float(hit.get("temporal_order", 1.0))
+            snippet = " ".join(h_text.split()[:22])
+            if _try_add_record(
+                h_mid,
+                h_spk,
+                f"stated via Qdrant retrieval: {snippet}",
+                snippet,
+                f"QDRANT_{str(hit.get('record_type', 'turn')).upper()}",
+                h_order,
+                None,
+                topic=str(hit.get("topic") or "qdrant_semantic_hit"),
+            ):
+                distinct_meetings = {r["meeting_id"] for r in selected_records}
+                if len(distinct_meetings) >= 2 and len(selected_records) >= 2:
+                    break
+
     if len(distinct_meetings) < 2:
         # Search raw turns in the team's other meetings
         for m_letter, m_order in [("a", 1.0), ("b", 2.0), ("c", 3.0), ("d", 4.0)]:
@@ -388,7 +465,7 @@ def resolve_live_question(
                 words = turn.text.split()
                 if len(words) < 7:
                     continue
-                sc = _score_text_relevance(turn.text, q_primary, q_expanded)
+                sc = _score_text_relevance(turn.text, q_primary, q_expanded, q_vec=q_vec)
                 if sc > best_turn_score:
                     best_turn_score = sc
                     best_turn = turn
@@ -465,6 +542,25 @@ def resolve_live_question(
         "telemetry": {
             "latency_ms": elapsed_ms,
             "detected_team": team_id,
+            "qdrant_vectors_searched": len(qdrant_hits) > 0,
+            "qdrant_top_hits": [
+                {
+                    "meeting_id": h.get("meeting_id"),
+                    "record_type": h.get("record_type"),
+                    "speaker_id": h.get("speaker_id"),
+                    "temporal_order": h.get("temporal_order"),
+                    "vector_score": round(float(h.get("_vector_score", 0.0)), 4),
+                    "hybrid_score": round(float(h.get("_hybrid_score", 0.0)), 4),
+                    "text_preview": str(
+                        h.get("text")
+                        or h.get("semantic_target_quote")
+                        or h.get("decision_value")
+                        or h.get("task_description")
+                        or ""
+                    )[:110],
+                }
+                for h in qdrant_hits[:5]
+            ],
             "distinct_meetings_cited": sorted(list({c["meeting_id"] for c in citations})),
             "records_traversed": [
                 {
